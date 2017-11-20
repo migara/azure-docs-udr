@@ -54,8 +54,8 @@
 
 	```
 	az network vnet subnet update \
-	 --vnet-name vNet 
 	 --name subnet1 \
+	 --vnet-name vNet \
 	 --resource-group RG_migara \
 	 --route-table RT_1
 	```
