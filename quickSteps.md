@@ -63,14 +63,13 @@
 
 ## List Routes
 
-	```
+
 	az network route-table route list \
 	 --resource-group RG_migara \
 	 --route-table-name RT_1 \
 	 --output table
-	```
 
 ## Cleanup
 
-	```az group delete --name RG_migara --yes```
+	az group delete --name RG_migara --yes
 
