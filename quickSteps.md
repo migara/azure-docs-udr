@@ -6,8 +6,8 @@
 
 	```
 	az group create \
-		--name RG_migara \
-		--location 'West Europe'
+	--name RG_migara \
+	--location 'West Europe'
 	```
 
 2. Create VNet and a subnet
