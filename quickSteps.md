@@ -1,8 +1,11 @@
 # Quick Steps
 
+## Create
+
 1. Create a resource group
 
-	```az group create \
+	```
+	az group create \
 			--name RG_migara \
 			--location 'West Europe'
 	```
@@ -53,7 +56,7 @@
 	```
 
 
-# List Routes
+## List Routes
 
 	```az network route-table route list \
 			--resource-group RG_migara \
@@ -61,7 +64,7 @@
 			--output table
 	```
 
-# Cleanup
+## Cleanup
 
 	```az group delete --name RG_migara --yes```
 
